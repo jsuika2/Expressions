@@ -9,6 +9,4 @@
 
 //Strings, just trying to figure it out;
 
-var welcome = "Hello World";
-
-console.log(welcome);
+var
