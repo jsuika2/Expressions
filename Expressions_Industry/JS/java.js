@@ -5,21 +5,10 @@
 
 
 
-var HoursNeededtoStudyForWebDesignClass = prompt ("How many cups of milk does carter drink a day",50);
-var degCent;
-
-degCent = 5/9 * (HoursNeededtoStudyForWebDesignClass -32);
-
-alert(HoursNeededtoStudyForWebDesignClass + "\xb0 Fahrenheit is " + degCent + "\xb0 centigrade");
 
 
+//Strings, just trying to figure it out;
 
-console.log(degCent);
+var welcome = "Hello World";
 
-
-
-
-//Test
-
-
-var
+console.log(welcome);
