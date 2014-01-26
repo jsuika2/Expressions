@@ -26,7 +26,7 @@
       <file leaf-file-name="Expressions_Industry.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expressions_Industry/Expressions_Industry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="7" selection-start="102" selection-end="102" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="330">
+            <state line="8" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="Expressions_Personal.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expressions_Personal/Expressions_Personal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="6" selection-start="89" selection-end="89" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="300">
+            <state line="2" column="6" selection-start="52" selection-end="52" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="java.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expressions_Industry/JS/java.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="3" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="9" column="7" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="Java.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expressions_Wacky/JS/Java.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.32667875" vertical-offset="0" max-vertical-offset="765">
+            <state line="18" column="0" selection-start="707" selection-end="707" vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -107,8 +107,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="133" />
-    <option name="y" value="22" />
+    <option name="x" value="236" />
+    <option name="y" value="96" />
     <option name="width" value="1563" />
     <option name="height" value="957" />
   </component>
@@ -138,6 +138,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,6 +203,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Expressions_Personal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Expressions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Expressions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Expressions_Industry" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -226,7 +245,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,6 +254,14 @@
     <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -246,23 +272,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -275,6 +293,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3461a0df-593b-4b7c-9f46-9bb5169868fc" name="Default" comment="" />
@@ -284,11 +319,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="133" y="22" width="1563" height="957" extended-state="0" />
+    <frame x="236" y="96" width="1563" height="957" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33063585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -323,6 +358,62 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Expressions_Industry/Expressions_Industry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Personal/Expressions_Personal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Personal/JS/java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="24" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Industry/JS/java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="3" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Wacky/Expressions_Wacky.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Wacky/JS/Java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Industry/Expressions_Industry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Personal/Expressions_Personal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Personal/JS/java.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="24" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
@@ -332,21 +423,175 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Industry/JS/java.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+        <state line="11" column="3" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions_Personal/Expressions_Personal.html">
+    <entry file="file://$PROJECT_DIR$/Expressions_Wacky/Expressions_Wacky.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="89" selection-end="89" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="300">
+        <state line="11" column="7" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Wacky/JS/Java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Industry/Expressions_Industry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="102" selection-end="102" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="330">
+        <state line="11" column="7" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Personal/Expressions_Personal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Personal/JS/java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="24" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Industry/JS/java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="3" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Wacky/Expressions_Wacky.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Wacky/JS/Java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Industry/Expressions_Industry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Personal/Expressions_Personal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Personal/JS/java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="24" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Industry/JS/java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="3" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Wacky/Expressions_Wacky.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Wacky/JS/Java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Industry/Expressions_Industry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Personal/Expressions_Personal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Personal/JS/java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="24" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Industry/JS/java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="3" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Wacky/Expressions_Wacky.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Wacky/JS/Java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Personal/Expressions_Personal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="52" selection-end="52" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Personal/JS/java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="24" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Industry/Expressions_Industry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Industry/JS/java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
@@ -360,7 +605,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Wacky/JS/Java.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.32667875" vertical-offset="0" max-vertical-offset="765">
+        <state line="18" column="0" selection-start="707" selection-end="707" vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
