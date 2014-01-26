@@ -6,6 +6,8 @@
 //  I drink a lot of sodas and energy drinks when working on web design projects. How much grams of sugar in a work week do I consume?
       // Going to add how many energy drinks and sodas I drink each day, figure out how much sugar consumed each day and then multiply that by days worked.
 
+//Also I will use Arrays and figure out how much oz. of sugar, I will convert grams to oz.
+
 
 
 alert("Working long hours on web design projects sometimes requires a little caffeine or soda pick me up. ") //What everyone will see to explain problem
@@ -32,17 +34,19 @@ total = daysWork*(drinkTotal);       // the total, the final answer to how many 
 console.log("You will drink a total of " +total+ " grams of sugar consumed in a " + daysWork + " day work week."); //the display of the whole expression
 
 var myArray =new Array ();
-myArray[0] = total;
+myArray[0] = total;              //total is the amount of grams of sugar in a week
 myArray[1] = 0.035274               ////oz per gram
-myArray[2] = 0.0022046
-myArray[3] = total*.035274
+myArray[2] = 0.0022046              //pounds per gram  -end up not useing this Array,
+myArray[3] = myArray[0]*myArray[1]       //total sugar used in grams multiply by .035274 (
+
+num = myArray[3];             //found this online, I am sure there is a cleaner way to do this, but I forgot it
+result = num.toFixed(2)       //I only wanted to display the second number after the decimal point, so I input a 2
+
+console.log("Also " +myArray[0]+ " grams of sugar equal " +result+ " oz. of sugar."); the second part of the formula displayed
 
 
-//console.log("Also " +myArray[0]+ " grams of sugar equal " + (myArray[0]*myArray[1])+ " oz. of sugar.")
 
 
-//tester console
-console.log(myArray[3])
-
-
+//tester console            //a test console
+//console.log(result)
 
