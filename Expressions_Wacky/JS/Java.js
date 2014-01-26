@@ -1,21 +1,6 @@
 /**
  * By Jeremy Suika for Expressions:Wacky, on 1/19/14.
  */
-    //going to add how much energy drink John and Jill drank, add them up together. Multiply that number by .0625 that equals what the number is in pounds.
-
-
-
-var milkDrankJohn = prompt ("How many oz. does John drink daily?",10); //going to be the first part of the formula, add this to the girl's
-var milkDrankJill = prompt ("How many oz. does Jill drink daily?",20);
-var days          = prompt ("How many days are energy drink needed?",5);
-
-
-
-var myArray =new Array ();
-myArray[0] = milkDrankJohn;
-myArray[1] = milkDrankJill;
-myArray[2] =  days
-myArray[3] = .0625                          //this is what you multiply to convert oz. to gallons
 
 
 
@@ -24,21 +9,26 @@ myArray[3] = .0625                          //this is what you multiply to conve
 
 
 
-var total;
-
-total = ((myArray[0]+myArray[1]))* myArray[2] * myArray[3];   //does not work bt tried it;
+//Array
 
 
-console.log(total);
+var myArray = new Array();
+
+
+myArray[0] =45
+myArray[1] ="John";
+myArray[2] ="123";
+myArray[3] =4;
+myArray[4] ="Smith"
+
+var volume = myArray[0]* myArray[3] *.4567;
 
 
 
+alert(myArray[1]+ " "+myArray[4]);
 
+alert(volume)
 
-
-var Gallons;
-
-Gallons= milkDrankJohn * 7;
 
 
 
