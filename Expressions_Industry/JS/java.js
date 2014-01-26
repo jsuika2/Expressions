@@ -9,43 +9,35 @@
 
 
 
-alert("Working long hours on web design projects sometimes requires a little caffeine or soda pick me up. ")
+alert("Working long hours on web design projects sometimes requires a little caffeine or soda pick me up. ") //What everyone will see to explain problem
 
-alert("We will see how much sugar we consume in week...")
-
-
+alert("We will see how much sugar we consume in week...")                                                    //The second part of the explanation.
 
 
+var sodaDaily = prompt ("How many cans of XYZ brand soda do you drink daily?","");      //Need to know to how many cans to calculate how much sugar drank.
+
+var coffeeDaily =prompt("How many cups of cofee you drink daily?","");       //This will be the second part of the formula, going add soda can total+coffe total
 
 
+var sodaTotal =sodaDaily*39;  //In this example there are 39 grams of sugar per can of soda, (Each Can drunk multiply by 39)
+var coffeeTotal = coffeeDaily *16; //We will say we have 16 grams of sugar per cup of coffee, (Each Coffee drunk multiply by 16)
 
-// We are going to enter how many cans of soda John drinks while at work
-//   then we are gonna add to how many sodas Jill drinks daily
+var drinkTotal =coffeeTotal+sodaTotal; //the total grams of how much coffee and soda drank daily;
 
-
-
-//var milkDrankJohn = prompt ("How many oz. does  drink daily?",10); //going to be the first part of the formula, add this to the girl's
-//var milkDrankJill = prompt ("How many oz. does Jill drink daily?",20);
-//var days          = prompt ("How many days are energy drink needed?",5);
+var daysWork =prompt("How many days do you work a week?","") //How many days we will drink coffee and soda.
 
 
+var total;                           //to get the total, we multiply the days drinking by the daily total of grams from the drinks in "drinkTotal"
+total = daysWork*(drinkTotal);       // the total, the final answer to how many days drunk
+
+console.log("You will drink a total of " +total+ " grams of sugar consumed in a week."); //the display of the whole expression
 
 //var myArray =new Array ();
-//myArray[0] = milkDrankJohn;
-//myArray[1] = milkDrankJill;
+//myArray[0] = sodaDaily;
+//myArray[1] = coffeeDaily;
 //myArray[2] =  days
 //myArray[3] = .0625
 
 
 
 
-
-
-
-
-//var total;
-
-//total = ((myArray[0]+myArray[1]))* myArray[2] * myArray[3];   //does not work bt tried it;
-
-
-//console.log(total);
