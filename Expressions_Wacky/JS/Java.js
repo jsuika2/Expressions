@@ -3,14 +3,19 @@
  * worked on again on jab 28 2014
  */
 
+
+
+
 ///Strings
 
-var tvHome=prompt("Cable T.V costs on average $65.00 a month, what do you spend?","do not plcce $");
+//Going to add up how much you spend on entertainment, and average it out, and compare it to the national average.
 
-var computers=prompt("How many Smartphones or cellphones in your ?")
+var tvHome=prompt("Cable T.V costs on average $65.00 a month, what do you spend?","do not place $ sign");
 
+var computers=prompt("What to you spend a month on cell/smart phone?");
 
-var filrmA =
+var entertain=prompt("What do you send on any other entertainment each month? movies, redbox, netflix, ect.");
+
 
 
 
