@@ -18,8 +18,11 @@ myArray[2] =prompt("What do you send on any other entertainment each month? Like
 myArray[3] =((myArray[0]*1)+(myArray[1]*1)+(myArray[2]*1));
 
 
-var intro="On average people spend "
-var otherPeople=175
+var intro="On average people spend $";
+var otherPeople=175;
+var secondPart =" a month for cable, phone and entertainment, you spend, ";
+var math="$"+myArray[3];
+var thirdPart=" which is a $"+(myArray[3]-otherPeople)+" difference from the national average of ";
 
 
 
@@ -27,6 +30,6 @@ var otherPeople=175
 //test console
 //console.log(tvHome);
 
-console.log(intro);
+console.log(intro+otherPeople+secondPart+math+thirdPart+"$"+otherPeople+".");
 
-console.log(myArray[3]);
+//console.log(thirdPart);
