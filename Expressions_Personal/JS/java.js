@@ -4,3 +4,6 @@
  */
 
 
+
+alert("I have a friend who is on holiday from Europe. He loves to run for exercise")
+alert("We will see how much sugar you can consume in week...")  
