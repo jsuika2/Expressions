@@ -1,5 +1,6 @@
 /**
  * By Jeremy Suika for Expressions:Industry, on 1/19/14.
+ *
  */
 
 
@@ -42,7 +43,7 @@ myArray[3] = myArray[0]*myArray[1]       //total sugar used in grams multiply by
 num = myArray[3];             //found this online, I am sure there is a cleaner way to do this, but I forgot it
 result = num.toFixed(2)       //I only wanted to display the second number after the decimal point, so I input a 2
 
-console.log("Also " +myArray[0]+ " grams of sugar equal " +result+ " oz. of sugar."); the second part of the formula displayed
+console.log("Also " +myArray[0]+ " grams of sugar equal " +result+ " oz. of sugar."); //the second part of the formula displayed
 
 
 

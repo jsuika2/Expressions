@@ -1,35 +1,19 @@
 /**
  * By Jeremy Suika for Expressions:Wacky, on 1/19/14.
+ * worked on again on jab 28 2014
  */
 
+///Strings
+
+var tvHome=prompt("Cable T.V costs on average $65.00 a month, what do you spend?","do not plcce $");
+
+var computers=prompt("How many Smartphones or cellphones in your ?")
+
+
+var filrmA =
 
 
 
 
-
-
-
-//Array
-
-
-var myArray = new Array();
-
-
-myArray[0] =45
-myArray[1] ="John";
-myArray[2] ="123";
-myArray[3] =4;
-myArray[4] ="Smith"
-
-var volume = myArray[0]* myArray[3] *.4567;
-
-
-
-alert(myArray[1]+ " "+myArray[4]);
-
-alert(volume)
-
-
-
-
-
+//test console
+console.log(tvHome);
